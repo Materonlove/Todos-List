@@ -1,4 +1,49 @@
 
+
+
+.ocultar{
+    visibility: hidden;
+}
+
+li:hover > *{
+    visibility: visible;
+}
+
+
+
+
+
+div#container {
+	width: 600px;
+	margin: 0 auto;
+	border: 2px solid grey;
+	background: #f7f7f7;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+	cursor: pointer;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #fff;
+	padding-left: 10px;
+	line-height: 2em;
+	margin: 0;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
 /* 
 
     You can write your own styles here...
